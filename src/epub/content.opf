@@ -31,8 +31,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/34901</dc:source>
 		<dc:source>https://books.google.com/books?id=uWAJAAAAQAAJ</dc:source>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">50927</meta>
+		<meta property="se:reading-ease.flesch">34.43</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/On_Liberty</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-stuart-mill_on-liberty</meta>
 		<dc:creator id="author">John Stuart Mill</dc:creator>
@@ -40,12 +40,14 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Stuart_Mill</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79007044</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="author-of-introduction">W. L. Courtney</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Courtney, W. L.</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">William Leonard Courtney</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/William_Leonard_Courtney</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50018008</meta>
-		<meta property="role" refines="author-of-introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Eugène Delacroix</dc:contributor>
 		<meta property="file-as" refines="#artist">Delacroix, Eugène</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Ferdinand Victor Eugène Delacroix</meta>
