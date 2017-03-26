@@ -22,3 +22,13 @@ footer{
 .signature{
 	font-variant: small-caps;
 }
+
+section[epub|type~="dedication"]{
+	margin: 25% auto;
+	max-width: 50%;
+}
+
+section[epub|type~="dedication"] p{
+	text-align: left;
+	text-indent: 0;
+}
