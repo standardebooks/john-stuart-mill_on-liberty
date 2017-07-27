@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-stuart-mill/on-liberty</dc:identifier>
 		<dc:date>2017-03-31T19:18:38Z</dc:date>
-		<meta property="dcterms:modified">2017-07-22T01:06:28Z</meta>
-		<meta property="se:revision-number">9</meta>
+		<meta property="dcterms:modified">2017-07-27T20:34:23Z</meta>
+		<meta property="se:revision-number">10</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -25,8 +25,8 @@
 		<dc:description id="description">Mill’s famous essay that applies a utilitarian ethical system to systems of government.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;John Stuart Mill was a prolific and well-regarded author and philosopher in his day, but perhaps his most enduring work is &lt;i&gt;On Liberty&lt;/i&gt;, an essay developed over several years and with significant input from his wife.  In it, he applies his views on the Utilitarian ethical theory to systems of society and governance.  The result became one of the most influential essays on liberal political thought in modern history.&lt;/p&gt;
-			&lt;p&gt;In &lt;i&gt;On Liberty&lt;/i&gt; Mill addresses such familiar concepts as freedom of speech, the importance of individuality, and the limits of society’s influence on the individual.  He caps the discussion with an application of these principals on problems of the day, including education and the economy.&lt;/p&gt;
+			&lt;p&gt;John Stuart Mill was a prolific and well-regarded author and philosopher in his day, but perhaps his most enduring work is &lt;i&gt;On Liberty&lt;/i&gt;, an essay developed over several years and with significant input from his wife. In it, he applies his views on the Utilitarian ethical theory to systems of society and governance. The result became one of the most influential essays on liberal political thought in modern history.&lt;/p&gt;
+			&lt;p&gt;In &lt;i&gt;On Liberty&lt;/i&gt; Mill addresses such familiar concepts as freedom of speech, the importance of individuality, and the limits of society’s influence on the individual. He caps the discussion with an application of these principals on problems of the day, including education and the economy.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
