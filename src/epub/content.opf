@@ -26,19 +26,18 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">On Liberty</dc:title>
 		<meta property="file-as" refines="#title">On Liberty</meta>
 		<dc:subject id="subject-1">Liberty</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/34901</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85076480</meta>
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">Mill’s famous essay that applies a utilitarian ethical system to systems of government.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;John Stuart Mill was a prolific and well-regarded author and philosopher in his day, but perhaps his most enduring work is &lt;i&gt;On Liberty&lt;/i&gt;, an essay developed over several years and with significant input from his wife. In it, he applies his views on the Utilitarian ethical theory to systems of society and governance. The result became one of the most influential essays on liberal political thought in modern history.&lt;/p&gt;
 			&lt;p&gt;In &lt;i&gt;On Liberty&lt;/i&gt; Mill addresses such familiar concepts as freedom of speech, the importance of individuality, and the limits of society’s influence on the individual. He caps the discussion with an application of these principals on problems of the day, including education and the economy.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/34901</dc:source>
 		<dc:source>https://books.google.com/books?id=uWAJAAAAQAAJ</dc:source>
