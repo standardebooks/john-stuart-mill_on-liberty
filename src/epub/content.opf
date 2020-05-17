@@ -35,7 +35,7 @@
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">Mill’s famous essay that applies a utilitarian ethical system to systems of government.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;John Stuart Mill was a prolific and well-regarded author and philosopher in his day, but perhaps his most enduring work is &lt;i&gt;On Liberty&lt;/i&gt;, an essay developed over several years and with significant input from his wife. In it, he applies his views on the Utilitarian ethical theory to systems of society and governance. The result became one of the most influential essays on liberal political thought in modern history.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-stuart-mill"&gt;John Stuart Mill&lt;/a&gt; was a prolific and well-regarded author and philosopher in his day, but perhaps his most enduring work is &lt;i&gt;On Liberty&lt;/i&gt;, an essay developed over several years and with significant input from his wife. In it, he applies his views on the Utilitarian ethical theory to systems of society and governance. The result became one of the most influential essays on liberal political thought in modern history.&lt;/p&gt;
 			&lt;p&gt;In &lt;i&gt;On Liberty&lt;/i&gt; Mill addresses such familiar concepts as freedom of speech, the importance of individuality, and the limits of society’s influence on the individual. He caps the discussion with an application of these principles to problems of the day, including education and the economy.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
