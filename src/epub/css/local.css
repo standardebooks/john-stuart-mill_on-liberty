@@ -20,6 +20,6 @@ section[epub|type~="dedication"]{
 }
 
 section[epub|type~="dedication"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
