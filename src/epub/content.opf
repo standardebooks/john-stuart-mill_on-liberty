@@ -43,7 +43,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/34901</dc:source>
 		<dc:source>https://books.google.com/books?id=uWAJAAAAQAAJ</dc:source>
 		<meta property="se:word-count">50946</meta>
-		<meta property="se:reading-ease.flesch">34.43</meta>
+		<meta property="se:reading-ease.flesch">34.53</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/On_Liberty</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-stuart-mill_on-liberty</meta>
 		<dc:creator id="author">John Stuart Mill</dc:creator>
