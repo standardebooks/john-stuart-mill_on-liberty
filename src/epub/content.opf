@@ -58,7 +58,7 @@
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">William Leonard Courtney</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/William_Leonard_Courtney</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50018008</meta>
-		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Eugène Delacroix</dc:contributor>
 		<meta property="file-as" refines="#artist">Delacroix, Eugène</meta>
