@@ -53,6 +53,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79007044</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="author-of-introduction">W. L. Courtney</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Courtney, W. L.</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">William Leonard Courtney</meta>
