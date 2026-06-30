@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/john-stuart-mill/on-liberty</dc:identifier>
 		<dc:date>2017-03-31T19:18:38Z</dc:date>
 		<meta property="dcterms:modified">2017-03-31T19:18:38Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -32,7 +33,7 @@
 		<dc:subject id="subject-1">Liberty</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85076480</meta>
-		<meta property="se:subject">Philosophy</meta>
+		<meta property="schema:genre">Philosophy</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">Mill’s famous essay that applies a utilitarian ethical system to systems of government.</dc:description>
@@ -43,29 +44,31 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/34901</dc:source>
 		<dc:source>https://books.google.com/books?id=uWAJAAAAQAAJ</dc:source>
-		<meta property="se:word-count">50855</meta>
-		<meta property="se:reading-ease.flesch">34.53</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/On_Liberty</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-stuart-mill_on-liberty</meta>
+		<meta property="schema:wordCount">50855</meta>
+		<meta property="schema:educationalLevel">34.53</meta>
+		<link href="https://en.wikipedia.org/wiki/On_Liberty" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/john-stuart-mill_on-liberty" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">John Stuart Mill</dc:creator>
 		<meta property="file-as" refines="#author">Mill, John Stuart</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Stuart_Mill</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79007044</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Stuart_Mill" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79007044.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="author-of-introduction">W. L. Courtney</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Courtney, W. L.</meta>
-		<meta property="se:name.person.full-name" refines="#author-of-introduction">William Leonard Courtney</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/William_Leonard_Courtney</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50018008</meta>
+		<meta property="schema:alternateName" refines="#author-of-introduction">William Leonard Courtney</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Leonard_Courtney" refines="#author-of-introduction" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50018008.html" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Eugène Delacroix</dc:contributor>
 		<meta property="file-as" refines="#artist">Delacroix, Eugène</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Ferdinand Victor Eugène Delacroix</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79086855</meta>
+		<meta property="schema:alternateName" refines="#artist">Ferdinand Victor Eugène Delacroix</meta>
+		<link href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79086855.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Curtis Weyant</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Weyant, Curtis</meta>
@@ -75,11 +78,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
